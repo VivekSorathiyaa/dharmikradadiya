@@ -6,8 +6,8 @@ import 'package:dio_http_cache/dio_http_cache.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:joyn/utils/process_indicator.dart';
-import 'package:joyn/utils/repository/network_repository.dart';
+import 'package:Dharmik/utils/process_indicator.dart';
+import 'package:Dharmik/utils/repository/network_repository.dart';
 import '../internet_error.dart';
 // import '../process_indicator.dart';
 

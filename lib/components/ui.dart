@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:joyn/components/app_asset.dart';
-import 'package:joyn/components/app_text_style.dart';
-import 'package:joyn/components/buttons/text_button.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/components/static_decoration.dart';
+import 'package:Dharmik/components/app_asset.dart';
+import 'package:Dharmik/components/app_text_style.dart';
+import 'package:Dharmik/components/buttons/text_button.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/components/static_decoration.dart';
 
 class UiInterface {
   static Widget squreIconWidget(

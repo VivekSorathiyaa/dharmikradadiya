@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:joyn/components/colors.dart';
+import 'package:Dharmik/components/colors.dart';
 import 'internet_error.dart';
 
 class Circle {

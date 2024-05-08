@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:joyn/components/app_text_style.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/components/static_decoration.dart';
+import 'package:Dharmik/components/app_text_style.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/components/static_decoration.dart';
 import 'package:lottie/lottie.dart';
 
 // ignore: must_be_immutable

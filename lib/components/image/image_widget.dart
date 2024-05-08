@@ -5,7 +5,7 @@ import 'dart:math' as math;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:joyn/components/colors.dart';
+import 'package:Dharmik/components/colors.dart';
 import 'package:lottie/lottie.dart';
 
 // checkImageLoadState(ExtendedImageState state) {
@@ -75,7 +75,7 @@ class NetworkImageWidget extends StatelessWidget {
     //   errorWidget: (context, url, error) => Icon(Icons.error),
     // );
     return ClipRRect(
-      borderRadius: borderRadius,
+      borderRadius: borderRadius!,
       child: new CachedNetworkImage(
           fit: fit ?? BoxFit.cover,
           height: height,

@@ -4,11 +4,11 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/components/common_methos.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/components/common_methos.dart';
 
-import 'package:joyn/utils/app_constants.dart';
-import 'package:joyn/utils/network_dio/network_dio.dart';
+import 'package:Dharmik/utils/app_constants.dart';
+import 'package:Dharmik/utils/network_dio/network_dio.dart';
 
 NetworkRepository networkRepository = NetworkRepository();
 

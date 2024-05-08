@@ -1,56 +1,47 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/pages/splash_screen.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/pages/splash_screen.dart';
 
-final dataStorages = GetStorage();
-
-class JoynApp extends StatefulWidget {
-  const JoynApp({Key? key}) : super(key: key);
+class DharmikApp extends StatefulWidget {
+  const DharmikApp({Key? key}) : super(key: key);
 
   @override
-  _JoynAppState createState() => _JoynAppState();
+  _DharmikAppState createState() => _DharmikAppState();
 }
 
 final GlobalKey<NavigatorState> navigatorKey =
     GlobalKey<NavigatorState>(debugLabel: "navigator");
 
-class _JoynAppState extends State<JoynApp> {
+class _DharmikAppState extends State<DharmikApp> {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
         SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.white));
-    return ScreenUtilInit(
-      designSize: const Size(375, 812),
-      builder: (BuildContext context, Widget? child) {
-        return GetMaterialApp(
-          navigatorKey: navigatorKey,
-          title: 'Erixie',
-          debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            backgroundColor: appBackgroundColor,
-            // scaffoldBackgroundColor: primaryBlack,
-            primaryColor: Colors.red,
-            primarySwatch: Colors.red,
-            fontFamily: 'Urbanist',
-            hintColor: primaryWhite,
-            // primaryColor: primaryWhite,
-            iconTheme: const IconThemeData(color: primaryWhite, size: 24),
-            // appBarTheme: const AppBarTheme(
-            //   elevation: 1,
-            //   // ignore: deprecated_member_use
-            //   textTheme: TextTheme(headline6: TextStyle(color: Colors.white)),
-            //   backgroundColor: primaryWhite,
-            //   foregroundColor: primaryWhite,
-            //   centerTitle: true,
-            // )
-          ),
-          home: SplashScreen(),
-        );
-      },
+    return GetMaterialApp(
+      navigatorKey: navigatorKey,
+      title: 'Dharmik',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        backgroundColor: appBackgroundColor,
+        // scaffoldBackgroundColor: primaryBlack,
+        primaryColor: appColor,
+        primarySwatch: Colors.pink,
+        fontFamily: 'NotoSansGujarati',
+        hintColor: primaryBlack,
+        // primaryColor: primaryWhite,
+        iconTheme: const IconThemeData(color: primaryBlack, size: 24),
+        // appBarTheme: const AppBarTheme(
+        //   elevation: 1,
+        //   // ignore: deprecated_member_use
+        //   textTheme: TextTheme(headline6: TextStyle(color: Colors.white)),
+        //   backgroundColor: primaryWhite,
+        //   foregroundColor: primaryWhite,
+        //   centerTitle: true,
+        // )
+      ),
+      home: SplashScreen(),
     );
   }
 }

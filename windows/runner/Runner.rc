@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "joyn" "\0"
+            VALUE "FileDescription", "Dharmik" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "joyn" "\0"
+            VALUE "InternalName", "Dharmik" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "joyn.exe" "\0"
-            VALUE "ProductName", "joyn" "\0"
+            VALUE "OriginalFilename", "Dharmik.exe" "\0"
+            VALUE "ProductName", "Dharmik" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

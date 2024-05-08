@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:joyn/components/app_text_style.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/utils/validators.dart';
+import 'package:Dharmik/components/app_text_style.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/utils/validators.dart';
 
 class EmailWidget extends StatelessWidget {
   const EmailWidget({

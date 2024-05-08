@@ -13,7 +13,9 @@ const Color greyColor = Color(0xffC0C0C0);
 const Color appBackgroundColor = Color(0xffF1F5FA);
 const Color secondBackgroundColor = Color(0xffEEEEEE);
 const Color textGreyColor = Color(0xffACB0B5);
-const Color appColor = Color(0xff1E252B);
+// const Color appColor = Color(0xff1E252B);
+// const Color appColor = Colors.pink;
+const Color appColor = Color(0xff1B4473);
 const Color appBlackColor = Color(0xff1E1E1E);
 const Color dividerColor = Color(0xff8D8DA2);
 
@@ -57,7 +59,8 @@ const Color lightappColor = Color(0xffFFE7E7);
 const Color red = Color(0xffB21807); //E22A2A
 const Color success = Color(0xff426d54); //5FB924
 const Color infoDialog = Color(0xff79B3E4);
-const Color blue = Color(0xff068AEC);
+const Color blue = Color(0xff1B4473);
+// const Color blue = Color(0xff068AEC);
 const Color yellow = Color(0xffFFCC00);
 const Color borderGrey = Color(0xffDBDBDB);
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:joyn/components/app_text_style.dart';
-import 'package:joyn/components/colors.dart';
-import 'package:joyn/components/static_decoration.dart';
+import 'package:Dharmik/components/app_text_style.dart';
+import 'package:Dharmik/components/colors.dart';
+import 'package:Dharmik/components/static_decoration.dart';
 
 // ignore: must_be_immutable
 class PrimaryTextButton extends StatelessWidget {
@@ -36,12 +36,12 @@ class PrimaryTextButton extends StatelessWidget {
       child: TextButton(
         autofocus: autofocus,
         style: TextButton.styleFrom(
+          foregroundColor: textColor ?? primaryWhite,
           shape: RoundedRectangleBorder(
             side: border ?? BorderSide.none,
             borderRadius: borderRadius ?? BorderRadius.circular(12),
           ),
-          primary: textColor ?? primaryWhite,
-          onSurface: primaryWhite,
+          disabledForegroundColor: primaryWhite.withOpacity(0.38),
           backgroundColor: buttonColor ?? redColor,
           fixedSize: Size(
             width ?? MediaQuery.of(context).size.width / 1.16,

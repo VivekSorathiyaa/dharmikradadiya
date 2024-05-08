@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:joyn/components/colors.dart';
+import 'package:Dharmik/components/colors.dart';
 
 class CommonMethod {
   void showSnackBar(BuildContext context, SnackBar snackBar) {
